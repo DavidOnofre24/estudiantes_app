@@ -16,7 +16,7 @@ class _NotificationPageState extends State<NotificationPage> {
   }
 
   Widget _notification() {
-    return Container(
+    return SizedBox(
         width: double.infinity,
         child: Card(
             color: Colors.blue[200],
