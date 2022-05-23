@@ -89,11 +89,6 @@ class _ReportPageState extends State<ReportPage> {
                       filled: true,
                       hintText: 'Placa',
                     ))),
-            Row(children: const [
-              Text('Foto:', style: TextStyle(fontWeight: FontWeight.bold)),
-              Icon(Icons.add_photo_alternate_rounded,
-                  size: 30, color: Colors.blue)
-            ]),
             MaterialButton(
                 padding: const EdgeInsets.symmetric(horizontal: 37),
                 color: Colors.blue,
